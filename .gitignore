@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+_site/
+
+# img/ contains the copies used by the app. Keep the original downloads locally.
+minor_arcana_images/*.jpg

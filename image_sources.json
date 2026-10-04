@@ -1,0 +1,795 @@
+{
+  "source_checked_on": "2026-10-04",
+  "images": [
+    {
+      "group": "大アルカナ",
+      "card": "愚者",
+      "local_file": "img/RWS_Tarot_00_Fool.jpg",
+      "source_file": "RWS_Tarot_00_Fool.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_00_Fool.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "魔術師",
+      "local_file": "img/RWS_Tarot_01_Magician.jpg",
+      "source_file": "RWS_Tarot_01_Magician.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_01_Magician.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "女教皇",
+      "local_file": "img/RWS_Tarot_02_High_Priestess.jpg",
+      "source_file": "RWS_Tarot_02_High_Priestess.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_02_High_Priestess.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "女帝",
+      "local_file": "img/RWS_Tarot_03_Empress.jpg",
+      "source_file": "RWS_Tarot_03_Empress.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_03_Empress.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "皇帝",
+      "local_file": "img/RWS_Tarot_04_Emperor.jpg",
+      "source_file": "RWS_Tarot_04_Emperor.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_04_Emperor.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "法王",
+      "local_file": "img/RWS_Tarot_05_Hierophant.jpg",
+      "source_file": "RWS_Tarot_05_Hierophant.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_05_Hierophant.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "恋人",
+      "local_file": "img/RWS_Tarot_06_Lovers.jpg",
+      "source_file": "RWS_Tarot_06_Lovers.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_06_Lovers.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "戦車",
+      "local_file": "img/RWS_Tarot_07_Chariot.jpg",
+      "source_file": "RWS_Tarot_07_Chariot.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_07_Chariot.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "力",
+      "local_file": "img/RWS_Tarot_08_Strength.jpg",
+      "source_file": "RWS_Tarot_08_Strength.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_08_Strength.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "隠者",
+      "local_file": "img/RWS_Tarot_09_Hermit.jpg",
+      "source_file": "RWS_Tarot_09_Hermit.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_09_Hermit.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "運命の輪",
+      "local_file": "img/RWS_Tarot_10_Wheel_of_Fortune.jpg",
+      "source_file": "RWS_Tarot_10_Wheel_of_Fortune.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_10_Wheel_of_Fortune.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "正義",
+      "local_file": "img/RWS_Tarot_11_Justice.jpg",
+      "source_file": "RWS_Tarot_11_Justice.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_11_Justice.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "吊るされた男",
+      "local_file": "img/RWS_Tarot_12_Hanged_Man.jpg",
+      "source_file": "RWS_Tarot_12_Hanged_Man.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_12_Hanged_Man.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "死神",
+      "local_file": "img/RWS_Tarot_13_Death.jpg",
+      "source_file": "RWS_Tarot_13_Death.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_13_Death.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "節制",
+      "local_file": "img/RWS_Tarot_14_Temperance.jpg",
+      "source_file": "RWS_Tarot_14_Temperance.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_14_Temperance.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "悪魔",
+      "local_file": "img/RWS_Tarot_15_Devil.jpg",
+      "source_file": "RWS_Tarot_15_Devil.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_15_Devil.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "塔",
+      "local_file": "img/RWS_Tarot_16_Tower.jpg",
+      "source_file": "RWS_Tarot_16_Tower.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_16_Tower.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "星",
+      "local_file": "img/RWS_Tarot_17_Star.jpg",
+      "source_file": "RWS_Tarot_17_Star.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_17_Star.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "月",
+      "local_file": "img/RWS_Tarot_18_Moon.jpg",
+      "source_file": "RWS_Tarot_18_Moon.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_18_Moon.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "太陽",
+      "local_file": "img/RWS_Tarot_19_Sun.jpg",
+      "source_file": "RWS_Tarot_19_Sun.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_19_Sun.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "審判",
+      "local_file": "img/RWS_Tarot_20_Judgement.jpg",
+      "source_file": "RWS_Tarot_20_Judgement.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_20_Judgement.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "大アルカナ",
+      "card": "世界",
+      "local_file": "img/RWS_Tarot_21_World.jpg",
+      "source_file": "RWS_Tarot_21_World.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RWS_Tarot_21_World.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Wikipediaから取得した縮小画像。取得時のファイル版は未記録。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドのエース",
+      "local_file": "img/wands_01.jpg",
+      "source_file": "Wands01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands01.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの2",
+      "local_file": "img/wands_02.jpg",
+      "source_file": "Wands02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands02.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの3",
+      "local_file": "img/wands_03.jpg",
+      "source_file": "Wands03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands03.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの4",
+      "local_file": "img/wands_04.jpg",
+      "source_file": "Wands04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands04.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの5",
+      "local_file": "img/wands_05.jpg",
+      "source_file": "Wands05.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands05.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの6",
+      "local_file": "img/wands_06.jpg",
+      "source_file": "Wands06.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands06.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの7",
+      "local_file": "img/wands_07.jpg",
+      "source_file": "Wands07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands07.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの8",
+      "local_file": "img/wands_08.jpg",
+      "source_file": "Wands08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands08.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの9",
+      "local_file": "img/wands_09.jpg",
+      "source_file": "Wands09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands09.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドの10",
+      "local_file": "img/wands_10.jpg",
+      "source_file": "Wands10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands10.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドのペイジ",
+      "local_file": "img/wands_11.jpg",
+      "source_file": "Wands11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands11.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドのナイト",
+      "local_file": "img/wands_12.jpg",
+      "source_file": "Wands12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands12.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドのクイーン",
+      "local_file": "img/wands_13.jpg",
+      "source_file": "Wands13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands13.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ワンドのキング",
+      "local_file": "img/wands_14.jpg",
+      "source_file": "Wands14.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wands14.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップのエース",
+      "local_file": "img/cups_01.jpg",
+      "source_file": "Cups01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups01.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの2",
+      "local_file": "img/cups_02.jpg",
+      "source_file": "Cups02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups02.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの3",
+      "local_file": "img/cups_03.jpg",
+      "source_file": "Cups03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups03.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの4",
+      "local_file": "img/cups_04.jpg",
+      "source_file": "Cups04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups04.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの5",
+      "local_file": "img/cups_05.jpg",
+      "source_file": "Cups05.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups05.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの6",
+      "local_file": "img/cups_06.jpg",
+      "source_file": "Cups06.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups06.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの7",
+      "local_file": "img/cups_07.jpg",
+      "source_file": "Cups07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups07.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの8",
+      "local_file": "img/cups_08.jpg",
+      "source_file": "Cups08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups08.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの9",
+      "local_file": "img/cups_09.jpg",
+      "source_file": "Cups09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups09.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップの10",
+      "local_file": "img/cups_10.jpg",
+      "source_file": "Cups10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups10.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップのペイジ",
+      "local_file": "img/cups_11.jpg",
+      "source_file": "Cups11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups11.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップのナイト",
+      "local_file": "img/cups_12.jpg",
+      "source_file": "Cups12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups12.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップのクイーン",
+      "local_file": "img/cups_13.jpg",
+      "source_file": "Cups13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups13.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "カップのキング",
+      "local_file": "img/cups_14.jpg",
+      "source_file": "Cups14.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups14.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードのエース",
+      "local_file": "img/swords_01.jpg",
+      "source_file": "Swords01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords01.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの2",
+      "local_file": "img/swords_02.jpg",
+      "source_file": "Swords02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords02.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの3",
+      "local_file": "img/swords_03.jpg",
+      "source_file": "Swords03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords03.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの4",
+      "local_file": "img/swords_04.jpg",
+      "source_file": "Swords04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords04.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの5",
+      "local_file": "img/swords_05.jpg",
+      "source_file": "Swords05.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords05.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの6",
+      "local_file": "img/swords_06.jpg",
+      "source_file": "Swords06.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords06.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの7",
+      "local_file": "img/swords_07.jpg",
+      "source_file": "Swords07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords07.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの8",
+      "local_file": "img/swords_08.jpg",
+      "source_file": "Swords08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords08.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの9",
+      "local_file": "img/swords_09.jpg",
+      "source_file": "Swords09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords09.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードの10",
+      "local_file": "img/swords_10.jpg",
+      "source_file": "Swords10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords10.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードのペイジ",
+      "local_file": "img/swords_11.jpg",
+      "source_file": "Swords11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords11.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードのナイト",
+      "local_file": "img/swords_12.jpg",
+      "source_file": "Swords12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords12.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードのクイーン",
+      "local_file": "img/swords_13.jpg",
+      "source_file": "Swords13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords13.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ソードのキング",
+      "local_file": "img/swords_14.jpg",
+      "source_file": "Swords14.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Swords14.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルのエース",
+      "local_file": "img/pentacles_01.jpg",
+      "source_file": "Pents01.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents01.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの2",
+      "local_file": "img/pentacles_02.jpg",
+      "source_file": "Pents02.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents02.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの3",
+      "local_file": "img/pentacles_03.jpg",
+      "source_file": "Pents03.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents03.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの4",
+      "local_file": "img/pentacles_04.jpg",
+      "source_file": "Pents04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents04.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの5",
+      "local_file": "img/pentacles_05.jpg",
+      "source_file": "Pents05.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents05.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの6",
+      "local_file": "img/pentacles_06.jpg",
+      "source_file": "Pents06.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents06.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの7",
+      "local_file": "img/pentacles_07.jpg",
+      "source_file": "Pents07.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents07.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの8",
+      "local_file": "img/pentacles_08.jpg",
+      "source_file": "Pents08.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents08.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの9",
+      "local_file": "img/pentacles_09.jpg",
+      "source_file": "Pents09.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents09.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルの10",
+      "local_file": "img/pentacles_10.jpg",
+      "source_file": "Pents10.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents10.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルのペイジ",
+      "local_file": "img/pentacles_11.jpg",
+      "source_file": "Pents11.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents11.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルのナイト",
+      "local_file": "img/pentacles_12.jpg",
+      "source_file": "Pents12.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents12.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルのクイーン",
+      "local_file": "img/pentacles_13.jpg",
+      "source_file": "Pents13.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents13.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "小アルカナ",
+      "card": "ペンタクルのキング",
+      "local_file": "img/pentacles_14.jpg",
+      "source_file": "Pents14.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pents14.jpg",
+      "artist": "Pamela Colman Smith",
+      "status": "パブリックドメイン（Commons上の表示）",
+      "note": "Commonsから取得した画像と同一内容。表示用ファイル名に変更。"
+    },
+    {
+      "group": "カード裏面",
+      "card": "白い裏面",
+      "local_file": "img/card-back.svg",
+      "source_file": "",
+      "source_page": "",
+      "artist": "このプロジェクトで作成",
+      "status": "自作",
+      "note": "白い長方形のSVG。外部画像は使用していません。"
+    }
+  ]
+}
