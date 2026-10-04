@@ -203,6 +203,7 @@
     for (let index = 0; index < readingCards.length; index += 1) {
       const card = readingCards[index];
       const position = state.reading[index].position;
+      card.classList.add("is-dealt");
       card.style.zIndex = String(cardElements.length + index + 1);
       card.style.left = `${position.x}%`;
       card.style.top = `${position.y}%`;

@@ -157,7 +157,11 @@ h1 {
   cursor: default;
   perspective: 900px;
   transform: translate(-50%, -50%);
-  transition: left 700ms cubic-bezier(.2,.75,.2,1), top 700ms cubic-bezier(.2,.75,.2,1), transform 700ms cubic-bezier(.2,.75,.2,1), opacity 300ms ease;
+  transition: left 700ms cubic-bezier(.2,.75,.2,1), top 700ms cubic-bezier(.2,.75,.2,1), width 700ms cubic-bezier(.2,.75,.2,1), transform 700ms cubic-bezier(.2,.75,.2,1), opacity 300ms ease;
+}
+
+.tarot-card.reading-card.is-dealt {
+  width: clamp(75.4px, 11.7vw, 119.6px);
 }
 
 .tarot-card.can-reveal {
@@ -223,7 +227,7 @@ h1 {
   font-family: system-ui, sans-serif;
   font-size: 0.74rem;
   text-align: center;
-  transform: translate(-50%, 58px);
+  transform: translate(-50%, clamp(80px, 12vw, 120px));
 }
 
 .stage-action {
@@ -320,10 +324,6 @@ h1 {
   .meaning-grid {
     grid-template-columns: 1fr;
     gap: 16px;
-  }
-
-  .position-label {
-    transform: translate(-50%, 46px);
   }
 }
 
