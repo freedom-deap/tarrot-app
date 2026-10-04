@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="大アルカナを使ったタロット占いアプリ">
+    <title>Tarot Reading</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <p class="eyebrow">A quiet moment for yourself</p>
+        <h1>Tarot Reading</h1>
+        <p id="instruction" class="instruction" aria-live="polite">
+          スプレッドを選んでください
+        </p>
+      </header>
+
+      <section id="spread-selector" class="spread-selector" aria-labelledby="spread-heading">
+        <h2 id="spread-heading">スプレッドを選ぶ</h2>
+        <div id="spread-list" class="spread-list"></div>
+      </section>
+
+      <section
+        id="reading-stage"
+        class="reading-stage is-hidden"
+        aria-label="カードを広げる場所"
+      >
+        <div id="table" class="table"></div>
+        <button id="stage-action" class="stage-action is-hidden" type="button"></button>
+      </section>
+
+      <section id="reading-panel" class="reading-panel is-hidden" aria-live="polite">
+        <p id="position-name" class="position-name"></p>
+        <h2 id="card-name"></h2>
+        <p id="orientation" class="orientation"></p>
+        <div class="meaning-grid">
+          <article>
+            <h3>カードの意味</h3>
+            <p id="card-meaning"></p>
+          </article>
+          <article>
+            <h3>配置の意味</h3>
+            <p id="position-meaning"></p>
+          </article>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <a href="./credits.html">画像の出典・利用条件</a>
+      </footer>
+    </main>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
