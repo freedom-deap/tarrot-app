@@ -43,45 +43,106 @@
   }));
 
   const minorSuits = [
-    { id: "wands", name: "ワンド", meanings: { upright: ["", "", "", ""], reversed: ["", "", "", ""] } },
-    { id: "cups", name: "カップ", meanings: { upright: ["", "", "", ""], reversed: ["", "", "", ""] } },
-    { id: "swords", name: "ソード", meanings: { upright: ["", "", "", ""], reversed: ["", "", "", ""] } },
-    { id: "pentacles", name: "ペンタクル", meanings: { upright: ["", "", "", ""], reversed: ["", "", "", ""] } }
+    { id: "wands", name: "ワンド", meaning: "人の情熱や感情、意志、想像力" },
+    { id: "cups", name: "カップ", meaning: "恋愛感情、愛に関すること" },
+    { id: "swords", name: "ソード", meaning: "理性や知恵、情報" },
+    { id: "pentacles", name: "ペンタクル", meaning: "お金やモノ、目に見えるものや仕事、安定性" }
   ];
 
   const minorRanks = [
-    "エース", "2", "3", "4", "5", "6", "7",
-    "8", "9", "10", "ペイジ", "ナイト", "クイーン", "キング"
-  ].map((name, index) => ({
-    number: index + 1,
-    name,
-    meanings: {
-      upright: ["", "", "", ""],
-      reversed: ["", "", "", ""]
-    }
-  }));
+    { number: 1, name: "エース", meaning: "スートの力が最も強い" },
+    { number: 2, name: "2", meaning: "スートの力が最も弱い" },
+    { number: 3, name: "3", meaning: "2よりは強いがまだ弱い" },
+    { number: 4, name: "4", meaning: "スートの力が安定している" },
+    { number: 5, name: "5", meaning: "スートの力の安定が崩れ激しく変化している" },
+    { number: 6, name: "6", meaning: "全体として調和がとれた状態" },
+    { number: 7, name: "7", meaning: "不安定さが強く出ている" },
+    { number: 8, name: "8", meaning: "突然の変化" },
+    { number: 9, name: "9", meaning: "スートの力が完成される一歩手前" },
+    { number: 10, name: "10", meaning: "スートの力が完成された状態" },
+    { number: 11, name: "ペイジ", meaning: "幼い子供、発展途上、伝達者" },
+    { number: 12, name: "ナイト", meaning: "若い男性、行動力、能動" },
+    { number: 13, name: "クイーン", meaning: "女性性、感情的、受け身" },
+    { number: 14, name: "キング", meaning: "権力者、年長者、実力、権威、責任" }
+  ];
+
+  // 各カードの正位置・逆位置に、それぞれ3つの意味を個別に記入する。
+  const minorCardMeanings = {
+    "minor-wands-01": { upright: ["誕生", "強い情熱", "体力と気力が充実"], reversed: ["物事の終了", "間違ったスタート", "意欲が湧かない"] },
+    "minor-wands-02": { upright: ["犠牲", "野心", "社会的・経済的な成功"], reversed: ["不測の事態", "計画の見直し", "イメージチェンジ"] },
+    "minor-wands-03": { upright: ["将来への期待感", "発展", "物事が良くなる兆し"], reversed: ["将来への期待感", "発展", "物事が良くなる兆し"] },
+    "minor-wands-04": { upright: ["平和", "穏やかなムード", "楽しいイベント"], reversed: ["平和", "穏やかなムード", "楽しいイベント"] },
+    "minor-wands-05": { upright: ["ライバル争い", "終わりが見えない", "やることが多い"], reversed: ["さらに混乱した状態", "不毛な争い", "複雑"] },
+    "minor-wands-06": { upright: ["プライドが満たされる", "勝利", "成果を得る"], reversed: ["敗北", "屈辱感", "相手の言いなりになる"] },
+    "minor-wands-07": { upright: ["有利な立場に立つ", "逃げずに戦う", "好成績"], reversed: ["不利な状況", "優柔不断", "やる気が無い"] },
+    "minor-wands-08": { upright: ["目まぐるしく状況が変わる", "一気に進む", "スピーディー"], reversed: ["停滞", "ゆっくりとした流れ", "嫉妬心"] },
+    "minor-wands-09": { upright: ["身長", "準備を怠らない", "強い警戒心"], reversed: ["大幅に遅れる", "腰が重い", "閉塞感"] },
+    "minor-wands-10": { upright: ["重圧感", "抑圧", "重い負担がのしかかる"], reversed: ["", "", ""] },
+    "minor-wands-11": { upright: ["良い知らせ", "アドバイス", "コミュニケーション"], reversed: ["悪い知らせ", "デマに悩まされる", "情報不足"] },
+    "minor-wands-12": { upright: ["出発", "前進", "移動"], reversed: ["自分から距離を取る", "急な中断", "動揺"] },
+    "minor-wands-13": { upright: ["エネルギッシュな女性", "明るく楽しい環境", "情熱"], reversed: ["わがままな女王様", "強欲", "嫉妬心"] },
+    "minor-wands-14": { upright: ["未来を切り開く", "リーダーシップ", "精力的"], reversed: ["ワンマンな態度", "行動が空回り", "空気を読まない"] },
+    "minor-cups-01": { upright: ["ロマンチックな感情", "幸福感", "人の温かさ"], reversed: ["傷心の出来事", "願いが叶わない", "失恋"] },
+    "minor-cups-02": { upright: ["心ときめく楽しい出来事", "ロマンス", "パートナーシップ"], reversed: ["愛が離れていく", "意見が合わない", "分裂"] },
+    "minor-cups-03": { upright: ["楽しいひと時", "ハイテンション", "軽いノリ"], reversed: ["遊びすぎ", "集中できない", "妊娠"] },
+    "minor-cups-04": { upright: ["倦怠感", "現状に飽きる", "マンネリ"], reversed: ["新たな展開", "新鮮さ", "動きが軽い"] },
+    "minor-cups-05": { upright: ["半分以上が無くなる", "過去にこだわる", "失意"], reversed: ["かすかな希望", "再会", "祖先"] },
+    "minor-cups-06": { upright: ["過去からの影響", "思い出", "郷愁"], reversed: ["明日を見る行動", "気分一新", "過去の記憶を払拭"] },
+    "minor-cups-07": { upright: ["空想", "曖昧な状況", "迷い"], reversed: ["クリアな思考", "正しい判断", "具体的な行動"] },
+    "minor-cups-08": { upright: ["捨て去る", "断念", "新たな道を進む"], reversed: ["喜び", "嬉しい出来事", "やり遂げる"] },
+    "minor-cups-09": { upright: ["豊かさ", "願いが叶う", "満足感"], reversed: ["贅沢間", "過剰", "不満が募る"] },
+    "minor-cups-10": { upright: ["平和", "家族愛", "アットホームな雰囲気"], reversed: ["平和が崩れる", "家庭内不和", "孤独感"] },
+    "minor-cups-11": { upright: ["純粋無垢", "ロマンチスト", "誰かに甘える"], reversed: ["幼さが出る", "感情だけの行動", "依存心"] },
+    "minor-cups-12": { upright: ["ロマンチックな出来事", "プロポーズ", "援助を受ける"], reversed: ["甘い言葉に惑わされる", "嘘", "邪な考え"] },
+    "minor-cups-13": { upright: ["献身的な愛情", "母性", "女性としての魅力が高まる"], reversed: ["ヒステリック", "不名誉", "女性に振り回される"] },
+    "minor-cups-14": { upright: ["人情味あふれる", "寛大な心", "親切心"], reversed: ["不正行為", "スキャンダルに巻き込まれる", "嘘つきな男性"] },
+    "minor-swords-01": { upright: ["合理的な判断", "力づくで勝利", "権利"], reversed: ["残忍さ", "攻撃的な態度", "敗北感"] },
+    "minor-swords-02": { upright: ["バランスがとれる", "友情", "要領が良い"], reversed: ["不安定", "優柔不断", "不誠実"] },
+    "minor-swords-03": { upright: ["深い悲しみ", "涙", "ネガティブ"], reversed: ["情緒不安定", "予想外の出来事", "突然の悪化"] },
+    "minor-swords-04": { upright: ["一時的な休息", "一旦停止", "問題から離れる"], reversed: ["徐々に動き出す", "低迷状態からの脱出", "回復傾向"] },
+    "minor-swords-05": { upright: ["手段を択ばずに勝利", "利己心", "残酷さ"], reversed: ["敗北", "屈辱感", "不穏なムード"] },
+    "minor-swords-06": { upright: ["援助を受ける", "安全な方向へ逃げる", "明るい見通し"], reversed: ["逃げられない状況", "行き詰まり", "離れる"] },
+    "minor-swords-07": { upright: ["狡猾な行動", "計算づくめ", "策略"], reversed: ["アドバイス", "誠実さ", "知性"] },
+    "minor-swords-08": { upright: ["束縛", "忍耐力", "じっとして動かない"], reversed: ["物事のさらなる悪化", "事故", "困難に立ち往生"] },
+    "minor-swords-09": { upright: ["激しく苦悩する", "終わらない悲しみ", "絶望感"], reversed: ["ゴシップ", "疑心暗鬼", "被害者意識"] },
+    "minor-swords-10": { upright: ["希望が無くなる", "幕引き", "最悪な結末"], reversed: ["一時的に好転", "ほのかな希望", "予期せぬ幸運"] },
+    "minor-swords-11": { upright: ["警戒心", "連絡を受ける", "貴重な情報"], reversed: ["スパイ行為", "きつい言い方", "好戦的"] },
+    "minor-swords-12": { upright: ["突進", "恐れ知らず", "感情を捨て去る"], reversed: ["軽率な行動", "威嚇", "盲目的"] },
+    "minor-swords-13": { upright: ["クールビューティー", "合理的な行動", "未亡人"], reversed: ["批判的態度", "冷たい言動", "意固地"] },
+    "minor-swords-14": { upright: ["絶対的な権力者", "指導力", "裁判"], reversed: ["サディスト", "情け容赦のない態度", "恨みを買う"] },
+    "minor-pentacles-01": { upright: ["大金を得る", "宝物", "自分にとって価値あるもの"], reversed: ["大金を失う", "経済的な損害", "喪失感"] },
+    "minor-pentacles-02": { upright: ["気晴らし", "身近なレジャー", "同時進行"], reversed: ["真剣さに書ける", "無意味な行動", "暴飲暴食"] },
+    "minor-pentacles-03": { upright: ["修行", "努力を重ねる", "真面目"], reversed: ["平凡さ", "不真面目", "怠け癖"] },
+    "minor-pentacles-04": { upright: ["物への執着心", "手放さない", "ため込みすぎる"], reversed: ["強欲", "状況の膠着状態", "改善が進まない"] },
+    "minor-pentacles-05": { upright: ["貧乏", "愛情に恵まれない", "夢も希望も無い"], reversed: ["見通しが立たない", "混乱状態", "メリットが無い"] },
+    "minor-pentacles-06": { upright: ["ボランティア", "親切心", "慈善活動"], reversed: ["自分本位", "ケチ", "情が無い"] },
+    "minor-pentacles-07": { upright: ["成長を見守る", "進展が遅い", "待ち続ける"], reversed: ["待ちきれない", "途中で投げ出す", "面倒くさがり"] },
+    "minor-pentacles-08": { upright: ["勤勉", "ノルマ達成", "規則正しい生活"], reversed: ["見栄を張る", "手抜き", "偽物"] },
+    "minor-pentacles-09": { upright: ["安心安全な立場", "寵愛", "愛される女性"], reversed: ["不誠実", "媚びを植える", "色気"] },
+    "minor-pentacles-10": { upright: ["アットホームな状況", "家族", "和気藹々"], reversed: ["気が緩む", "家族のトラブル", "いい加減な対応"] },
+    "minor-pentacles-11": { upright: ["勤勉さ", "専門知識", "お金に関する良い知らせ"], reversed: ["さぼる", "不勉強", "お金に関する悪い知らせ"] },
+    "minor-pentacles-12": { upright: ["確実な歩み", "安定性", "現実的な行動"], reversed: ["停滞", "マンネリ感", "新鮮味が無い"] },
+    "minor-pentacles-13": { upright: ["保守的な女性", "金銭的な援助", "思考に耽る"], reversed: ["退屈な状況", "動きが無い", "浪費傾向"] },
+    "minor-pentacles-14": { upright: ["経済的にも安定した生活", "社会的地位の高い人物", "現実的な思考"], reversed: ["お金儲けに勤しむ", "不正行為", "変化が無い"] }
+  };
 
   const minorCards = minorSuits.flatMap((suit) => (
     minorRanks.map((rank) => {
       const number = rank.number;
       const paddedNumber = String(number).padStart(2, "0");
+      const id = `minor-${suit.id}-${paddedNumber}`;
       return {
-        id: `minor-${suit.id}-${paddedNumber}`,
+        id,
         arcana: "minor",
         suit: suit.id,
         number,
         rank: rank.name,
         name: `${suit.name}の${rank.name}`,
         image: `${IMAGE_DIRECTORY}/${suit.id}_${paddedNumber}.jpg`,
-        meanings: {
-          upright: {
-            suit: suit.meanings.upright,
-            rank: rank.meanings.upright
-          },
-          reversed: {
-            suit: suit.meanings.reversed,
-            rank: rank.meanings.reversed
-          }
+        meanings: minorCardMeanings[id],
+        supplement: {
+          suit: { name: suit.name, meaning: suit.meaning },
+          rank: { name: rank.name, meaning: rank.meaning }
         }
       };
     })

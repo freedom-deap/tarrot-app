@@ -16,7 +16,12 @@
     cardName: document.querySelector("#card-name"),
     orientation: document.querySelector("#orientation"),
     cardMeaning: document.querySelector("#card-meaning"),
-    positionMeaning: document.querySelector("#position-meaning")
+    positionMeaning: document.querySelector("#position-meaning"),
+    minorSupplement: document.querySelector("#minor-supplement"),
+    suitHeading: document.querySelector("#suit-heading"),
+    suitMeaning: document.querySelector("#suit-meaning"),
+    rankHeading: document.querySelector("#rank-heading"),
+    rankMeaning: document.querySelector("#rank-meaning")
   };
 
   const state = {
@@ -273,20 +278,22 @@
     return meanings.length > 0 ? meanings.join("、") : "意味は後から設定します。";
   }
 
-  function formatCardMeaning(meaning) {
-    if (Array.isArray(meaning)) return formatMeaningList(meaning);
-    return [
-      `スート：${formatMeaningList(meaning.suit)}`,
-      `数字・人物札：${formatMeaningList(meaning.rank)}`
-    ].join("\n");
-  }
   function showMeaning(entry) {
     const orientationKey = entry.reversed ? "reversed" : "upright";
     elements.positionName.textContent = entry.position.label;
     elements.cardName.textContent = entry.card.name;
     elements.orientation.textContent = entry.reversed ? "逆位置" : "正位置";
-    elements.cardMeaning.textContent = formatCardMeaning(entry.card.meanings[orientationKey]);
+    elements.cardMeaning.textContent = formatMeaningList(entry.card.meanings[orientationKey]);
     elements.positionMeaning.textContent = entry.position.meaning;
+    const isMinor = entry.card.arcana === "minor";
+    elements.minorSupplement.classList.toggle("is-hidden", !isMinor);
+    if (isMinor) {
+      const { suit, rank } = entry.card.supplement;
+      elements.suitHeading.textContent = `スート：${suit.name}`;
+      elements.suitMeaning.textContent = suit.meaning || "意味は後から設定します。";
+      elements.rankHeading.textContent = `数字・人物札：${rank.name}`;
+      elements.rankMeaning.textContent = rank.meaning || "意味は後から設定します。";
+    }
     elements.panel.classList.remove("is-hidden");
   }
 
