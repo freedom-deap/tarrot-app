@@ -78,6 +78,87 @@ h1 {
   gap: 18px;
 }
 
+.deck-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto 22px;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.deck-option input {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--gold);
+}
+
+.game-selector {
+  margin: 64px auto 0;
+  padding-top: 28px;
+  border-top: 1px solid rgba(213, 178, 109, 0.34);
+}
+
+.game-selector h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+}
+
+.game-selector > p {
+  margin: 8px 0 24px;
+  color: var(--muted);
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  font-size: 0.88rem;
+}
+
+.game-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.game-links a {
+  display: block;
+  min-height: 120px;
+  padding: 22px;
+  border: 1px solid rgba(213, 178, 109, 0.5);
+  border-radius: 4px;
+  color: var(--ink);
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.game-links a:hover,
+.game-links a:focus-visible {
+  border-color: var(--gold);
+  background: rgba(213, 178, 109, 0.1);
+  outline: none;
+}
+
+.game-links strong,
+.game-links span {
+  display: block;
+}
+
+.game-links strong {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.game-links span {
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+
 .spread-option,
 .stage-action {
   border: 1px solid rgba(213, 178, 109, 0.5);
@@ -360,6 +441,10 @@ h1 {
   }
 
   .minor-supplement-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .game-links {
     grid-template-columns: 1fr;
   }
 }

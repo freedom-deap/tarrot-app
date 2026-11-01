@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="小アルカナで遊ぶブラックジャック">
+    <title>タロット・ブラックジャック</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./games.css">
+  </head>
+  <body>
+    <main class="app-shell game-page">
+      <header class="app-header">
+        <p class="eyebrow">Tarot card games</p>
+        <h1>ブラックジャック</h1>
+        <p>小アルカナ56枚でディーラーと21を目指します。</p>
+        <a class="back-link" href="./index.html">TOPへ戻る</a>
+      </header>
+      <section class="game-rules" aria-labelledby="rules-heading">
+        <h2 id="rules-heading">ルール</h2>
+        <p>2～10は数字どおり、ペイジ・ナイト・クイーン・キングは10点、エースは1点または11点です。ヒットで1枚引き、スタンドで手札を確定します。ディーラーは17点以上で止まります。</p>
+        <p>21点を超えると負け。両者が21点以下なら高い方の勝ち、同点は引き分けです。初手の21点は通常の21点として比較します。ジョーカー・賭け・スプリットはありません。</p>
+      </section>
+      <section class="game-board" aria-label="ブラックジャックのテーブル">
+        <p id="blackjack-status" class="game-status" role="status" aria-live="polite"></p>
+        <div class="hand-area">
+          <h2>ディーラー <span id="dealer-value"></span></h2>
+          <div id="dealer-hand" class="game-hand"></div>
+        </div>
+        <div class="hand-area">
+          <h2>あなた <span id="player-value"></span></h2>
+          <div id="player-hand" class="game-hand"></div>
+        </div>
+        <div class="game-actions">
+          <button id="blackjack-deal" type="button">カードを配る</button>
+          <button id="blackjack-hit" type="button" hidden>ヒット</button>
+          <button id="blackjack-stand" type="button" hidden>スタンド</button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/data.js"></script>
+    <script src="./js/game-rules.js"></script>
+    <script src="./js/blackjack.js"></script>
+  </body>
+</html>

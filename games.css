@@ -1,0 +1,179 @@
+[hidden] {
+  display: none !important;
+}
+
+.game-page {
+  max-width: 1100px;
+}
+
+.game-page .app-header > p:not(.eyebrow) {
+  margin: 12px auto;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--gold);
+  text-underline-offset: 0.25em;
+}
+
+.game-rules {
+  margin: 34px auto 22px;
+  padding: 18px 24px;
+  border: 1px solid rgba(213, 178, 109, 0.3);
+  background: var(--panel);
+}
+
+.game-rules h2 {
+  margin: 0 0 8px;
+  color: var(--gold);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.game-rules p {
+  margin: 8px 0;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.game-board {
+  padding: 22px clamp(14px, 3vw, 30px);
+  border: 1px solid rgba(213, 178, 109, 0.35);
+  border-radius: 18px;
+  background: radial-gradient(circle at 50% 40%, #412b3a, #151924 75%);
+}
+
+.game-status {
+  min-height: 2.8em;
+  margin: 0 0 16px;
+  color: var(--gold);
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.hand-area {
+  padding: 12px 0 22px;
+  border-top: 1px solid rgba(213, 178, 109, 0.22);
+}
+
+.hand-area h2 {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hand-area h2 span {
+  margin-left: 10px;
+  color: var(--gold);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+
+.game-hand {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 146px;
+}
+
+.game-card {
+  position: relative;
+  width: clamp(72px, 12vw, 105px);
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  color: var(--ink);
+  background: transparent;
+  text-align: center;
+}
+
+.game-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--card-ratio);
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.game-card span {
+  display: block;
+  margin-top: 4px;
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+button.game-card {
+  cursor: pointer;
+}
+
+button.game-card:hover,
+button.game-card:focus-visible,
+button.game-card.is-selected {
+  border-color: var(--gold);
+  outline: none;
+}
+
+button.game-card.is-selected::after {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #171224;
+  background: var(--gold);
+  content: "交換";
+  font: 0.75rem system-ui, sans-serif;
+}
+
+.game-hint {
+  min-height: 1.3em;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 0.82rem;
+}
+
+.game-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.game-actions button {
+  padding: 10px 18px;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  color: var(--ink);
+  background: rgba(213, 178, 109, 0.12);
+  cursor: pointer;
+}
+
+.game-actions button:hover,
+.game-actions button:focus-visible {
+  background: rgba(213, 178, 109, 0.25);
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .game-hand {
+    gap: 5px;
+  }
+
+  .game-card {
+    width: calc((100% - 20px) / 5);
+  }
+
+  .game-card span {
+    font-size: 0.65rem;
+  }
+}

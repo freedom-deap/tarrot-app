@@ -7,6 +7,7 @@
   const elements = {
     instruction: document.querySelector("#instruction"),
     selector: document.querySelector("#spread-selector"),
+    useMinor: document.querySelector("#use-minor"),
     spreadList: document.querySelector("#spread-list"),
     stage: document.querySelector("#reading-stage"),
     table: document.querySelector("#table"),
@@ -80,7 +81,7 @@
   }
 
   function createDeck(spread) {
-    const availableCards = spread.positions.length === 1
+    const availableCards = spread.positions.length === 1 || !elements.useMinor.checked
       ? data.cards.filter((card) => card.arcana === "major")
       : data.cards;
 
